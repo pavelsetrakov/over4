@@ -33,6 +33,21 @@ namespace chess
 
         private void button1_Click(object sender, EventArgs e)
         {
+            radioButton1.Visible = true;
+            radioButton2.Visible = true;
+            radioButton3.Visible = true;
+            radioButton4.Visible = true;
+            radioButton5.Visible = true;
+            radioButton6.Visible = true;
+            radioButton7.Visible = true;
+            radioButton8.Visible = true;
+            radioButton9.Visible = true;
+            radioButton10.Visible = true;
+            radioButton11.Visible = true;
+            radioButton12.Visible = true;
+            radioButton13.Visible = true;
+            radioButton14.Visible = true;
+
             famil[0] = textBox1.Text;
             famil[1] = textBox2.Text;
             famil[2] = textBox3.Text;
