@@ -173,6 +173,7 @@
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(22, 20);
             this.textBox9.TabIndex = 10;
+            this.textBox9.Text = "19";
             // 
             // textBox10
             // 
@@ -180,6 +181,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(22, 20);
             this.textBox10.TabIndex = 11;
+            this.textBox10.Text = "23";
             // 
             // textBox11
             // 
@@ -187,6 +189,7 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(22, 20);
             this.textBox11.TabIndex = 12;
+            this.textBox11.Text = "21";
             // 
             // textBox12
             // 
@@ -194,6 +197,7 @@
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(22, 20);
             this.textBox12.TabIndex = 13;
+            this.textBox12.Text = "32";
             // 
             // textBox13
             // 
@@ -201,6 +205,7 @@
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(22, 20);
             this.textBox13.TabIndex = 14;
+            this.textBox13.Text = "41";
             // 
             // textBox14
             // 
@@ -208,6 +213,7 @@
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(22, 20);
             this.textBox14.TabIndex = 15;
+            this.textBox14.Text = "16";
             // 
             // textBox15
             // 
@@ -215,6 +221,7 @@
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(22, 20);
             this.textBox15.TabIndex = 16;
+            this.textBox15.Text = "18";
             // 
             // textBox16
             // 
@@ -222,6 +229,7 @@
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(22, 20);
             this.textBox16.TabIndex = 17;
+            this.textBox16.Text = "15";
             // 
             // groupBox1
             // 
