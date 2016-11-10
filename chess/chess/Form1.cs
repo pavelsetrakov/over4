@@ -12,9 +12,16 @@ namespace chess
 {
     public partial class Form1 : Form
     {
+        public String[] famil = new String[8];
+        public int[] year = new int[8];
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

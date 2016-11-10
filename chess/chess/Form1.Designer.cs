@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -94,10 +95,15 @@
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 7;
             // 
+
+            this.SuspendLayout();
+            // 
+
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.ClientSize = new System.Drawing.Size(539, 461);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
@@ -111,6 +117,13 @@
             this.Text = "Chess";
             this.ResumeLayout(false);
             this.PerformLayout();
+
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
 
         }
 
