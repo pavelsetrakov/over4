@@ -90,5 +90,75 @@ namespace chess
         {
             Close();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox17.Text = textBox1.Text;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox17.Text = textBox2.Text;
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox18.Text = textBox3.Text;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox18.Text = textBox4.Text;
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox19.Text = textBox5.Text;
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox19.Text = textBox6.Text;
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox20.Text = textBox7.Text;
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox20.Text = textBox8.Text;
+        }
+
+        private void radioButton10_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox21.Text = textBox17.Text;
+        }
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox21.Text = textBox18.Text;
+        }
+
+        private void radioButton12_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox22.Text = textBox19.Text;
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox22.Text = textBox20.Text;
+        }
+
+        private void radioButton14_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox23.Text = textBox21.Text;
+        }
+
+        private void radioButton13_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox23.Text = textBox22.Text;
+        }
     }
 }
