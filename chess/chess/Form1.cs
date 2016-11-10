@@ -50,6 +50,40 @@ namespace chess
             year[5] = Convert.ToInt16(textBox14.Text);
             year[6] = Convert.ToInt16(textBox15.Text);
             year[7] = Convert.ToInt16(textBox16.Text);
+
+            for (int j = 0; j < 7; j++)
+            {
+                for (int i = 0; i < year.Length - 1; i++)
+                {
+                    if (year[i] > year[i + 1])
+                    {
+                        year[i] = year[i + 1] + year[i];
+                        year[i + 1] = year[i] - year[i + 1];
+                        year[i] = year[i] - year[i + 1];
+
+                        String a = famil[i + 1];
+                        famil[i + 1] = famil[i];
+                        famil[i] = a;
+                    }
+                }
+            }
+            textBox1.Text = famil[0];
+            textBox2.Text = famil[1];
+            textBox3.Text = famil[2];
+            textBox4.Text = famil[3];
+            textBox5.Text = famil[4];
+            textBox6.Text = famil[5];
+            textBox7.Text = famil[6];
+            textBox8.Text = famil[7];
+
+            textBox9.Text = year[0].ToString();
+            textBox10.Text = year[1].ToString();
+            textBox11.Text = year[2].ToString();
+            textBox12.Text = year[3].ToString();
+            textBox13.Text = year[4].ToString();
+            textBox14.Text = year[5].ToString();
+            textBox15.Text = year[6].ToString();
+            textBox16.Text = year[7].ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
