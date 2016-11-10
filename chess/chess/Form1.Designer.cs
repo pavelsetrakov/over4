@@ -47,8 +47,8 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
@@ -58,10 +58,29 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.radioButton14 = new System.Windows.Forms.RadioButton();
+            this.textBox23 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -131,7 +150,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(452, 426);
+            this.button2.Location = new System.Drawing.Point(679, 426);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
@@ -205,16 +224,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 14);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(14, 13);
-            this.radioButton1.TabIndex = 22;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -224,6 +233,16 @@
             this.radioButton2.TabIndex = 23;
             this.radioButton2.TabStop = true;
             this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(6, 14);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(14, 13);
+            this.radioButton1.TabIndex = 22;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -315,11 +334,160 @@
             this.radioButton8.TabStop = true;
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(179, 34);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(100, 20);
+            this.textBox17.TabIndex = 22;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(179, 116);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(100, 20);
+            this.textBox18.TabIndex = 23;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(179, 208);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(100, 20);
+            this.textBox19.TabIndex = 24;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(179, 305);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(100, 20);
+            this.textBox20.TabIndex = 25;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.radioButton9);
+            this.groupBox5.Controls.Add(this.radioButton10);
+            this.groupBox5.Location = new System.Drawing.Point(285, 27);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(27, 117);
+            this.groupBox5.TabIndex = 26;
+            this.groupBox5.TabStop = false;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Location = new System.Drawing.Point(6, 92);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(14, 13);
+            this.radioButton9.TabIndex = 23;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(6, 14);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(14, 13);
+            this.radioButton10.TabIndex = 22;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.radioButton11);
+            this.groupBox6.Controls.Add(this.radioButton12);
+            this.groupBox6.Location = new System.Drawing.Point(285, 208);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(27, 117);
+            this.groupBox6.TabIndex = 27;
+            this.groupBox6.TabStop = false;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(6, 92);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(14, 13);
+            this.radioButton11.TabIndex = 23;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Location = new System.Drawing.Point(6, 14);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(14, 13);
+            this.radioButton12.TabIndex = 22;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(318, 70);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(100, 20);
+            this.textBox21.TabIndex = 28;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(318, 253);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(100, 20);
+            this.textBox22.TabIndex = 29;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.radioButton13);
+            this.groupBox7.Controls.Add(this.radioButton14);
+            this.groupBox7.Location = new System.Drawing.Point(424, 57);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(27, 216);
+            this.groupBox7.TabIndex = 30;
+            this.groupBox7.TabStop = false;
+            // 
+            // radioButton13
+            // 
+            this.radioButton13.AutoSize = true;
+            this.radioButton13.Location = new System.Drawing.Point(6, 197);
+            this.radioButton13.Name = "radioButton13";
+            this.radioButton13.Size = new System.Drawing.Size(14, 13);
+            this.radioButton13.TabIndex = 23;
+            this.radioButton13.TabStop = true;
+            this.radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // radioButton14
+            // 
+            this.radioButton14.AutoSize = true;
+            this.radioButton14.Location = new System.Drawing.Point(6, 14);
+            this.radioButton14.Name = "radioButton14";
+            this.radioButton14.Size = new System.Drawing.Size(14, 13);
+            this.radioButton14.TabIndex = 22;
+            this.radioButton14.TabStop = true;
+            this.radioButton14.UseVisualStyleBackColor = true;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Location = new System.Drawing.Point(457, 153);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(100, 20);
+            this.textBox23.TabIndex = 31;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(539, 461);
+            this.ClientSize = new System.Drawing.Size(766, 461);
+            this.Controls.Add(this.textBox23);
+            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.textBox22);
+            this.Controls.Add(this.textBox21);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.textBox20);
+            this.Controls.Add(this.textBox19);
+            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.textBox17);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -353,6 +521,12 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,6 +564,22 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton12;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.RadioButton radioButton13;
+        private System.Windows.Forms.RadioButton radioButton14;
+        private System.Windows.Forms.TextBox textBox23;
     }
 }
 
