@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -90,6 +89,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Гаврик";
             // 
             // textBox2
             // 
@@ -97,6 +97,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "Кабиров";
             // 
             // textBox3
             // 
@@ -104,6 +105,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 2;
+            this.textBox3.Text = "Можаев";
             // 
             // textBox4
             // 
@@ -111,6 +113,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 3;
+            this.textBox4.Text = "Проненко";
             // 
             // textBox5
             // 
@@ -118,6 +121,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 4;
+            this.textBox5.Text = "Любимов";
             // 
             // textBox6
             // 
@@ -125,6 +129,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 5;
+            this.textBox6.Text = "Бутов";
             // 
             // textBox7
             // 
@@ -132,6 +137,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 6;
+            this.textBox7.Text = "Сетраков";
             // 
             // textBox8
             // 
@@ -139,12 +145,8 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 7;
+            this.textBox8.Text = "Неволин";
             // 
-
-            this.SuspendLayout();
-            // 
-
-
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(12, 426);
@@ -153,6 +155,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "Старт";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -162,6 +165,7 @@
             this.button2.TabIndex = 9;
             this.button2.Text = "Выход";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox9
             // 
@@ -479,16 +483,11 @@
             this.textBox23.Size = new System.Drawing.Size(100, 20);
             this.textBox23.TabIndex = 31;
             // 
-
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
-
-            this.ClientSize = new System.Drawing.Size(539, 461);
-
-            this.ClientSize = new System.Drawing.Size(766, 461);
+            this.ClientSize = new System.Drawing.Size(774, 457);
             this.Controls.Add(this.textBox23);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.textBox22);
@@ -513,7 +512,6 @@
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -523,7 +521,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Chess";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -541,13 +539,6 @@
             this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-
 
         }
 
